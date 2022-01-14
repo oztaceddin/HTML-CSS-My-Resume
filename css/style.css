@@ -1,0 +1,218 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500&display=swap');
+
+*{
+
+box-sizing: border-box;
+
+}
+
+
+body{
+
+    font-family: 'Montserrat', sans-serif;
+    padding: 30px;
+}
+
+
+
+
+
+
+a{
+
+    text-decoration: none;
+    font-weight:900;
+}
+
+
+input,textarea{
+
+border: 1px solid rgb(0, 221, 255);
+border-radius: 15px;
+padding: 10px;
+width:100%;
+box-shadow: 5px 5px 8px gray;
+
+}
+
+button{
+    border: 1px solid rgb(14, 21, 22);
+    background-color: rgb(0, 221, 255);
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: 5px 5px 8px gray;
+    
+
+}
+
+
+.header {
+
+
+display: flex;
+justify-content: space-between;
+align-items: center;
+background-color: rgb(146, 220, 146);
+padding: 15px 20px;
+border-radius: 20px;
+
+
+
+}
+
+.header .title{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    
+
+}
+
+.header .menu a{
+    font-weight: 600;
+    color:black;
+}
+
+
+
+.content h1 span,
+.header span{
+    width:30px;
+    height: 30px;
+    border-radius: 25px;
+    background-color: rgba(128, 128, 128, 0.374);
+}
+
+.content h1{
+    display: flex;
+}
+
+
+
+.content{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px;
+
+}
+
+.content .about{
+display: flex;
+justify-content: center;
+width: 70%;
+
+}
+
+.content .about img{
+
+width: 500px;
+height: 500px;
+border-radius: 250px;
+border: 10px solid rgb(0, 255, 208);
+
+
+}
+
+.content .description{
+
+display: flex;
+flex-direction: column;
+justify-content: center;
+padding: 40px;
+
+
+
+}
+
+.content  .toolbar{
+display: flex;
+gap: 20px;
+
+
+}
+
+.content  .toolbar a{
+
+    background-color:rgb(0, 255, 208) ;
+    border: 2px solid rgb(74, 157, 142);
+    
+    width:100px;
+    height: 100px;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 700;
+    box-shadow: 5px 5px 8px gray;
+    text-shadow: 2px 2px 5px gray;
+
+
+}
+
+.section{
+    width: 60%;
+
+    text-shadow: 2px 2px 5px gray;
+
+}
+
+.section .card{
+
+    display: flex;
+    align-items: center;
+    border: 2px solid rgb(0, 255, 208);
+    border-radius: 40px rgb(74, 157, 142);
+    padding: 50px;
+    margin-bottom: 50px;
+    gap: 30px;
+    box-shadow: 5px 5px 8px gray;
+    
+
+
+
+}
+
+
+
+
+.section .card .left{
+
+    flex: 4;
+
+}
+
+
+.section .card .right{
+    flex: 3;
+}
+
+.section .card .row{
+    margin-bottom: 20px;
+    
+}
+
+
+
+
+.footer{
+    display: flex;
+    justify-content: space-around;
+    border-top:1px dotted gray;
+    text-shadow: 2px 2px 5px gray;
+}
+
+
+
+
+.header span{
+    width:30px;
+    height:30px;
+    border-radius: 25px;
+    background-color: rgba(128, 128, 128, 0.374);
+}
+
+
+
+
